@@ -525,7 +525,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 }
 
 .slider {
-  background: url("https://demo.themefisher.com/eden-bootstrap/images/slider-bg.jpg") no-repeat;
+  background: url("../images/slider-bg.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: 10% 0%;
@@ -787,7 +787,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   width: 60%;
   height: 100%;
   z-index: -1;
-  background: url("https://demo.themefisher.com/eden-bootstrap/images/slider/slider-img2.jpg") no-repeat fixed 50% 50%;
+  background: url("../photos/living/back.jpg") no-repeat fixed 50% 50%;
   background-size: cover;
 }
 
@@ -2210,7 +2210,7 @@ input[type=checkbox], input[type=radio] {
 }
 
 .style-2 .price-title {
-  background: url("https://demo.themefisher.com/eden-bootstrap/images/blog/img.jpg");
+  background: url("../images/blog/img.jpg");
   z-index: 1;
 }
 
@@ -2319,14 +2319,14 @@ input[type=checkbox], input[type=radio] {
 }
 
 .bg-1 {
-  background-image: url("https://demo.themefisher.com/eden-bootstrap/images/call-to-action-bg.jpg");
+  background-image: url("../images/call-to-action-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 .bg-2 {
-  background: url("https://demo.themefisher.com/eden-bootstrap/images/backgrounds/background.jpg");
+  background: url("../images/backgrounds/background.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
@@ -2516,7 +2516,7 @@ input[type=checkbox], input[type=radio] {
 }
 
 .coming-soon {
-  background: url("https://demo.themefisher.com/eden-bootstrap/images/backgrounds/coming-soon.jpg");
+  background: url("../images/backgrounds/coming-soon.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
@@ -2665,7 +2665,7 @@ input[type=checkbox], input[type=radio] {
 }
 
 #cta {
-  background: url("https://demo.themefisher.com/eden-bootstrap/images/backgrounds/background.jpg") fixed 50% 50%;
+  background: url("../images/backgrounds/background.jpg") fixed 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -2731,3 +2731,78 @@ input[type=checkbox], input[type=radio] {
 }
 
 /*# sourceMappingURL=maps/style.css.map */
+
+
+
+.living:after {
+  position: absolute;
+  content: "";
+  right: 0px;
+  top: 0px;
+  width: 60%;
+  height: 100%;
+  z-index: -1;
+  background: url("../photos/live.webp") no-repeat fixed 50% 50%;
+  background-size: cover;
+  background-attachment: local;
+}
+
+.testimonial .testimonial-carousel i {
+  font-size: 55px;
+}
+
+.testimonial .testimonial-carousel p {
+  line-height: 38px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.testimonial .testimonial-carousel .user img {
+  width: 60px;
+  height: 60px;
+}
+
+.living .testimonial-carousel .user p {
+  line-height: 20px;
+}
+
+.living .living-carousel .user p span {
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+@media (max-width: 400px) {
+  .living .section-title h2 {
+    color: #fff;
+  }
+  .living:after {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .living .section-title h2 {
+    color: #fff;
+  }
+  .living:after {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .living .section-title h2 {
+    color: #fff;
+  }
+  .living:after {
+    width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  .living .section-title h2 {
+    color: #fff;
+  }
+  .living:after {
+    width: 100%;
+  }
+}
