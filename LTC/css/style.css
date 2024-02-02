@@ -440,9 +440,9 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   display: block;
 }
 
-.main-wrapper-section {
+/* .main-wrapper-section {
   margin-top: 80px;
-}
+} */
 
 .country {
   background: transparent;
